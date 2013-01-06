@@ -1,0 +1,413 @@
+Bi Directional Bubble Sort 32 Bit Tests
+
+1. dan@ubuntu:~/cs220/Lab7$ ./bbsort32
+Enter a number (negative numbers will stop the loop): 9
+Enter a number: 8
+Enter a number: 7
+Enter a number: 6
+Enter a number: 5
+Enter a number: 4
+Enter a number: 3
+Enter a number: 2
+Enter a number: 1
+Enter a number: -1
+1 2 3 4 5 6 7 8 9 
+
+2. dan@ubuntu:~/cs220/Lab7$ ./bbsort32
+Enter a number (negative numbers will stop the loop): 2
+Enter a number: 3
+Enter a number: 4
+Enter a number: 1
+Enter a number: 5
+Enter a number: 6
+Enter a number: -9
+1 2 3 4 5 6 
+
+3. dan@ubuntu:~/cs220/Lab7$ ./bbsort32
+Enter a number (negative numbers will stop the loop): 2
+Enter a number: 3
+Enter a number: 4
+Enter a number: 5
+Enter a number: 6
+Enter a number: 7
+Enter a number: 8
+Enter a number: 1
+Enter a number: 9
+Enter a number: 10
+Enter a number: 1
+Enter a number: 11
+Enter a number: 15
+Enter a number: -1
+1 1 2 3 4 5 6 7 8 9 10 11 15 
+
+4. dan@ubuntu:~/cs220/Lab7$ ./bbsort32
+Enter a number (negative numbers will stop the loop): 99
+Enter a number: 44
+Enter a number: 66
+Enter a number: 777
+Enter a number: 8888
+Enter a number: 112
+Enter a number: 335
+Enter a number: -1
+44 66 99 112 335 777 8888 
+
+5. dan@ubuntu:~/cs220/Lab7$ ./bbsort32
+Enter a number (negative numbers will stop the loop): 8462
+Enter a number: 3578
+Enter a number: 15689
+Enter a number: -1
+3578 8462 15689 
+
+6. dan@ubuntu:~/cs220/Lab7$ ./bbsort32
+Enter a number (negative numbers will stop the loop): 19057824
+Enter a number: 8924506
+Enter a number: 2079694
+Enter a number: 8056702
+Enter a number: -5
+8924506 2079694 8056702 19057824 
+
+7. dan@ubuntu:~/cs220/Lab7$ ./bbsort32
+Enter a number (negative numbers will stop the loop): 17844597
+Enter a number: 15012313
+Enter a number: 3853300
+Enter a number: 10479714
+Enter a number: -9
+15012313 3853300 10479714 17844597 
+
+8. dan@ubuntu:~/cs220/Lab7$ ./bbsort32
+Enter a number (negative numbers will stop the loop): 14749607
+Enter a number: 17087707
+Enter a number: 17456556
+Enter a number: 8435114
+Enter a number: -7
+8435114 14749607 17087707 17456556 
+
+9. dan@ubuntu:~/cs220/Lab7$ ./bbsort32
+Enter a number (negative numbers will stop the loop): 8855
+Enter a number: 1212
+Enter a number: 5342
+Enter a number: 6290
+Enter a number: 4153
+Enter a number: 9777
+Enter a number: 2248
+Enter a number: -20
+1212 2248 4153 5342 6290 8855 9777 
+
+10. dan@ubuntu:~/cs220/Lab7$ ./bbsort32
+Enter a number (negative numbers will stop the loop): 811
+Enter a number: 4609
+Enter a number: 6894
+Enter a number: 6422
+Enter a number: 1298
+Enter a number: 3277
+Enter a number: 6619
+Enter a number: -7
+811 1298 3277 4609 6422 6619 6894 
+
+11. dan@ubuntu:~/cs220/Lab7$ ./bbsort32
+Enter a number (negative numbers will stop the loop): 5514
+Enter a number: 2906
+Enter a number: 9409
+Enter a number: 3223
+Enter a number: 9532
+Enter a number: 2940
+Enter a number: 9502
+Enter a number: -3
+2906 2940 3223 5514 9409 9502 9532 
+
+12. dan@ubuntu:~/cs220/Lab7$ ./bbsort32
+Enter a number (negative numbers will stop the loop): 7153
+Enter a number: 7774
+Enter a number: 2441
+Enter a number: 650
+Enter a number: 7089
+Enter a number: 3080
+Enter a number: 3120
+Enter a number: -4
+650 2441 3080 3120 7089 7153 7774 
+
+13. dan@ubuntu:~/cs220/Lab7$ ./bbsort32
+Enter a number (negative numbers will stop the loop): 873     
+Enter a number: 1250
+Enter a number: 419
+Enter a number: 2882
+Enter a number: 763
+Enter a number: 549
+Enter a number: 9624
+Enter a number: -5
+419 549 763 873 1250 2882 9624 
+
+14. dan@ubuntu:~/cs220/Lab7$ ./bbsort32
+Enter a number (negative numbers will stop the loop): 32
+Enter a number: 784
+Enter a number: 165
+Enter a number: 985
+Enter a number: 201
+Enter a number: 350
+Enter a number: 408
+Enter a number: 936
+Enter a number: 354
+Enter a number: 245
+Enter a number: 984
+Enter a number: 356
+Enter a number: 845
+Enter a number: -3
+32 165 201 245 350 354 356 408 784 845 936 984 985 
+
+15. dan@ubuntu:~/cs220/Lab7$ ./bbsort32
+Enter a number (negative numbers will stop the loop): 67
+Enter a number: 32
+Enter a number: 58
+Enter a number: 94
+Enter a number: 25
+Enter a number: 315
+Enter a number: 64
+Enter a number: -6
+25 32 58 64 67 94 315 
+
+16. dan@ubuntu:~/cs220/Lab7$ ./bbsort32
+Enter a number (negative numbers will stop the loop): 65
+Enter a number: 32
+Enter a number: 48
+Enter a number: 95
+Enter a number: -1
+32 48 65 95 
+
+17. dan@ubuntu:~/cs220/Lab7$ ./bbsort32
+Enter a number (negative numbers will stop the loop): 1000000
+Enter a number: 352148
+Enter a number: 36941052
+Enter a number: 20254
+Enter a number: 6
+Enter a number: -2
+6 20254 352148 1000000 36941052 
+
+18. dan@ubuntu:~/cs220/Lab7$ ./bbsort32
+Enter a number (negative numbers will stop the loop): 849
+Enter a number: 156
+Enter a number: 48
+Enter a number: 20
+Enter a number: 64
+Enter a number: 7
+Enter a number: -2
+7 20 48 64 156 849 
+
+19. dan@ubuntu:~/cs220/Lab7$ ./bbsort32
+Enter a number (negative numbers will stop the loop): 849
+Enter a number: 156
+Enter a number: 3238
+Enter a number: 458896
+Enter a number: 4564678
+Enter a number: 4849849849
+Enter a number: -7
+156 849 3238 458896 4564678 2147483647 
+
+20. dan@ubuntu:~/cs220/Lab7$ ./bbsort32
+Enter a number (negative numbers will stop the loop): 4849844894
+Enter a number: 58949884
+Enter a number: -3
+58949884 2147483647 
+
+Bi Directional Bubble Sort 64 Bit Tests
+
+1. dan@ubuntu:~/cs220/Lab7$ ./bbsort64
+Enter a number (negative numbers will stop the loop): 15    
+Enter a number: 59
+Enter a number: 23
+Enter a number: 15
+Enter a number: 459
+Enter a number: -6
+15 15 23 59 459 
+
+2. dan@ubuntu:~/cs220/Lab7$ ./bbsort64
+Enter a number (negative numbers will stop the loop): 9
+Enter a number: 8
+Enter a number: 7
+Enter a number: 6
+Enter a number: 5
+Enter a number: 4
+Enter a number: 3
+Enter a number: 2
+Enter a number: 1
+Enter a number: -9
+1 2 3 4 5 6 7 8 9 
+
+3. dan@ubuntu:~/cs220/Lab7$ ./bbsort64
+Enter a number (negative numbers will stop the loop): 2   
+Enter a number: 3
+Enter a number: 4
+Enter a number: 5
+Enter a number: 1
+Enter a number: 6
+Enter a number: 8
+Enter a number: 7
+Enter a number: 9
+Enter a number: -2
+1 2 3 4 5 6 7 8 9 
+
+4. dan@ubuntu:~/cs220/Lab7$ ./bbsort64
+Enter a number (negative numbers will stop the loop): 2
+Enter a number: 3
+Enter a number: 4
+Enter a number: 1
+Enter a number: 5
+Enter a number: -3
+1 2 3 4 5 
+
+5. dan@ubuntu:~/cs220/Lab7$ ./bbsort64
+Enter a number (negative numbers will stop the loop): 3000000000
+Enter a number: 4000000000
+Enter a number: 5000000000
+Enter a number: -6
+3000000000 4000000000 5000000000 
+
+6. dan@ubuntu:~/cs220/Lab7$ ./bbsort64
+Enter a number (negative numbers will stop the loop): 49846543459
+Enter a number: 84198198165
+Enter a number: 18949849884
+Enter a number: -8
+49846543459 18949849884 84198198165 
+
+7. dan@ubuntu:~/cs220/Lab7$ ./bbsort64
+Enter a number (negative numbers will stop the loop): 1651646847687   
+Enter a number: 26463468768
+Enter a number: 14864546846
+Enter a number: 464684684684
+Enter a number: 416435489489
+Enter a number: -3
+14864546846 26463468768 416435489489 464684684684 1651646847687
+
+8. dan@ubuntu:~/cs220/Lab7$ ./bbsort64
+Enter a number (negative numbers will stop the loop): 14749607
+Enter a number: 17087707
+Enter a number: 17456556
+Enter a number: 8435114
+Enter a number: -7
+8435114 14749607 17087707 17456556 
+
+9. dan@ubuntu:~/cs220/Lab7$ ./bbsort64
+Enter a number (negative numbers will stop the loop): 8855
+Enter a number: 1212
+Enter a number: 5342
+Enter a number: 6290
+Enter a number: 4153
+Enter a number: 9777
+Enter a number: 2248
+Enter a number: -20
+1212 2248 4153 5342 6290 8855 9777 
+
+10. dan@ubuntu:~/cs220/Lab7$ ./bbsort64
+Enter a number (negative numbers will stop the loop): 811
+Enter a number: 4609
+Enter a number: 6894
+Enter a number: 6422
+Enter a number: 1298
+Enter a number: 3277
+Enter a number: 6619
+Enter a number: -7
+811 1298 3277 4609 6422 6619 6894 
+
+11. dan@ubuntu:~/cs220/Lab7$ ./bbsort64
+Enter a number (negative numbers will stop the loop): 5514
+Enter a number: 2906
+Enter a number: 9409
+Enter a number: 3223
+Enter a number: 9532
+Enter a number: 2940
+Enter a number: 9502
+Enter a number: -3
+2906 2940 3223 5514 9409 9502 9532 
+
+12. dan@ubuntu:~/cs220/Lab7$ ./bbsort64
+Enter a number (negative numbers will stop the loop): 7153
+Enter a number: 7774
+Enter a number: 2441
+Enter a number: 650
+Enter a number: 7089
+Enter a number: 3080
+Enter a number: 3120
+Enter a number: -4
+650 2441 3080 3120 7089 7153 7774 
+
+13. dan@ubuntu:~/cs220/Lab7$ ./bbsort64
+Enter a number (negative numbers will stop the loop): 873     
+Enter a number: 1250
+Enter a number: 419
+Enter a number: 2882
+Enter a number: 763
+Enter a number: 549
+Enter a number: 9624
+Enter a number: -5
+419 549 763 873 1250 2882 9624 
+
+14. dan@ubuntu:~/cs220/Lab7$ ./bbsort64
+Enter a number (negative numbers will stop the loop): 32
+Enter a number: 784
+Enter a number: 165
+Enter a number: 985
+Enter a number: 201
+Enter a number: 350
+Enter a number: 408
+Enter a number: 936
+Enter a number: 354
+Enter a number: 245
+Enter a number: 984
+Enter a number: 356
+Enter a number: 845
+Enter a number: -3
+32 165 201 245 350 354 356 408 784 845 936 984 985 
+
+15. dan@ubuntu:~/cs220/Lab7$ ./bbsort64
+Enter a number (negative numbers will stop the loop): 67
+Enter a number: 32
+Enter a number: 58
+Enter a number: 94
+Enter a number: 25
+Enter a number: 315
+Enter a number: 64
+Enter a number: -6
+25 32 58 64 67 94 315 
+
+16. dan@ubuntu:~/cs220/Lab7$ ./bbsort64
+Enter a number (negative numbers will stop the loop): 65
+Enter a number: 32
+Enter a number: 48
+Enter a number: 95
+Enter a number: -1
+32 48 65 95 
+
+17. dan@ubuntu:~/cs220/Lab7$ ./bbsort64
+Enter a number (negative numbers will stop the loop): 1000000
+Enter a number: 352148
+Enter a number: 36941052
+Enter a number: 20254
+Enter a number: 6
+Enter a number: -2
+6 20254 352148 1000000 36941052 
+
+18. dan@ubuntu:~/cs220/Lab7$ ./bbsort64
+Enter a number (negative numbers will stop the loop): 84
+Enter a number: 123
+Enter a number: 156
+Enter a number: 1458
+Enter a number: 25894
+Enter a number: -8
+84 123 156 1458 25894 
+
+19. dan@ubuntu:~/cs220/Lab7$ ./bbsort64
+Enter a number (negative numbers will stop the loop): 213
+Enter a number: 148
+Enter a number: 185
+Enter a number: 48
+Enter a number: 1456
+Enter a number: -6
+48 148 185 213 1456 
+
+20. dan@ubuntu:~/cs220/Lab7$ ./bbsort64
+Enter a number (negative numbers will stop the loop): 12
+Enter a number: 158
+Enter a number: 15
+Enter a number: 2
+Enter a number: -7
+2 12 15 158 
+
